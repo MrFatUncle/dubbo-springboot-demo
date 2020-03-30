@@ -1,0 +1,14 @@
+server:
+  port: 8080
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    address: 10.0.75.1:2181
+    protocol: zookeeper
+    check: false
+  monitor:
+    protocol: register
+  consumer:
+    check: false
+    timeout: 10000
