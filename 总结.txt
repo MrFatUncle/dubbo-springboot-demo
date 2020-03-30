@@ -1,0 +1,5 @@
+1.SpringBoot整合Dubbo需要SpringBoot 2.0以上
+2.SpringBoot启动需要stater-web
+3.需要公共的Api接口，消费方调用接口，生产方实现接口
+4.配置dubbo的yml，需要dubbo项目名(必须)，注册中心地址，注册中心类型，生产方还需要提供端口
+5.生产方的@Service注解来自于Dubbo，而不是Spring
